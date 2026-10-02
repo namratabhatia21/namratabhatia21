@@ -1,25 +1,51 @@
 ## Hi, I'm Namrata 👋
 
-**AI Engineer / Data Scientist** · Python · SQL · TypeScript
+AI Engineer / Data Scientist. I build LLM agents and retrieval systems, and I'm happiest with a hard problem and a system design whiteboard.
 
-I build AI systems that work with real data: LLM agents, tool calling, retrieval (RAG) and the services around them. Most of my work so far has lived in private company repositories, so this profile is where I build in the open.
+```python
+from dataclasses import dataclass
 
-### Featured project
+Stack = tuple[str, ...]
 
-**[Agentic](https://github.com/namratabhatia21/Agentic)**: a production-ready agentic chatbot that answers from live data. The model plans, calls tools in parallel, reads the results and cites its sources, streaming each step to the browser.
 
-- **LLMs:** open-source models by default (Qwen3 through Hugging Face, or self-hosted with Ollama), with Claude as an optional provider
-- **Retrieval:** hybrid search that combines Hugging Face embeddings in pgvector with keyword search using reciprocal rank fusion
-- **Tools:** web search, arXiv, Wikipedia, read-only analytics SQL, zero-shot and sentiment classification, image generation and more
-- **Production setup:** FastAPI with server-sent events, PostgreSQL, Redis, API keys and rate limiting, Docker Compose, Prometheus and Grafana, GitHub Actions CI, and a Cloud Run deploy script
+@dataclass(frozen=True)
+class Engineer:
+    name: str = "Namrata"
+    role: str = "AI Engineer / Data Scientist"
+    languages: Stack = ("Python", "SQL", "JavaScript", "TypeScript")
+    ai_ml: Stack = ("LLM agents", "tool calling", "RAG", "embeddings", "Hugging Face")
+    data: Stack = ("PostgreSQL", "pgvector", "Redis")
+    backend: Stack = ("FastAPI", "Docker", "GitHub Actions", "Cloud Run")
+    observability: Stack = ("Prometheus", "Grafana")
+    interests: Stack = ("system design", "algorithms", "data", "open source")
 
-### Tech
 
-- **Languages:** Python, SQL, JavaScript, TypeScript
-- **AI / ML:** LLM agents and tool calling, RAG, embeddings, Hugging Face, text classification
-- **Data and backend:** PostgreSQL and pgvector, Redis, FastAPI
-- **Infrastructure:** Docker, Prometheus, Grafana, GitHub Actions, Google Cloud Run
+me = Engineer()
+```
 
-### Interests
+### Currently building: [Agentic](https://github.com/namratabhatia21/Agentic)
 
-System design · Algorithms · Data · Open source
+A production-ready agentic chatbot that answers from live data. The model plans, calls tools in parallel, reads the results and cites its sources, streaming every step to the browser.
+
+```mermaid
+flowchart LR
+    U[Browser] -->|SSE| N[Nginx]
+    N --> A[FastAPI<br/>agent loop]
+    A -->|tool calls| L[LLM<br/>Qwen3 / Ollama / Claude]
+    A --> T[Tools<br/>arXiv, Wikipedia, SQL, HF models]
+    A --> P[(Postgres + pgvector<br/>hybrid search)]
+    A --> R[(Redis<br/>rate limits, cache)]
+    M[Prometheus + Grafana] -.->|scrape| A
+```
+
+- Open-source LLMs by default, with Claude as an optional provider
+- Hybrid retrieval: Hugging Face embeddings in pgvector fused with full-text search (reciprocal rank fusion)
+- Typed tools with pydantic schemas, API keys, rate limiting, CI and a Cloud Run deploy script
+
+### Why my contribution graph is quiet
+
+```console
+$ git log --author="Namrata" --all
+warning: most of this history lives in private company repos
+hint: the public log starts with Agentic
+```
