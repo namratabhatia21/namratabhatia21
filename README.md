@@ -15,12 +15,10 @@ I build AI systems that work with real data: LLM agents, tool calling, retrieval
 
 ### Tech
 
-| | |
-|:--|:--|
-| **Languages** | Python, SQL, JavaScript, TypeScript |
-| **AI / ML** | LLM agents and tool calling, RAG, embeddings, Hugging Face, text classification |
-| **Data and backend** | PostgreSQL and pgvector, Redis, FastAPI |
-| **Infrastructure** | Docker, Prometheus, Grafana, GitHub Actions, Google Cloud Run |
+- **Languages:** Python, SQL, JavaScript, TypeScript
+- **AI / ML:** LLM agents and tool calling, RAG, embeddings, Hugging Face, text classification
+- **Data and backend:** PostgreSQL and pgvector, Redis, FastAPI
+- **Infrastructure:** Docker, Prometheus, Grafana, GitHub Actions, Google Cloud Run
 
 ### Interests
 
