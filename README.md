@@ -3,7 +3,7 @@
 AI Engineer / Data Scientist. I build LLM agents and retrieval systems, and I'm happiest with a hard problem and a system design whiteboard.
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pets.svg"><img src="assets/pets.svg" width="420" alt="Pixel art of my pets: Bishop, a tuxedo cat, and Teddy and Whiskey, two Lhasa Apsos"></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pets.svg"><img src="assets/pets.svg" width="560" alt="Animated pixel art: my tuxedo cat Bishop between my two white Lhasa Apsos, Teddy and Whiskey, with a little house and a tree"></picture>
   <br><sub><code>$ ls ~/pets</code> · my rubber duck debugging team</sub>
 </p>
 
