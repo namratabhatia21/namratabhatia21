@@ -50,13 +50,7 @@ warning: most of this history lives in private company repos
 hint: the public log starts with Agentic
 ```
 
-```console
-$ cat tuxedo.txt
-      /\___/\
-     (  o o  )      rubber duck debugging,
-     (  =^=  )      tuxedo edition
-      )>-o-<(
-     /|  .  |\
-    / |  .  | \
-   (__|__.__|__)~~
-```
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/tux-cat.svg"><img src="assets/tux-cat.svg" width="144" alt="Pixel-art black and white tuxedo cat"></picture>
+  <br><sub><code>$ cat tuxedo.svg</code> · rubber duck debugging, tuxedo edition</sub>
+</p>
