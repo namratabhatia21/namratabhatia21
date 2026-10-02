@@ -2,6 +2,11 @@
 
 AI Engineer / Data Scientist. I build LLM agents and retrieval systems, and I'm happiest with a hard problem and a system design whiteboard.
 
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pets.svg"><img src="assets/pets.svg" width="420" alt="Pixel art of my pets: Bishop, a tuxedo cat, and Teddy and Whiskey, two Lhasa Apsos"></picture>
+  <br><sub><code>$ ls ~/pets</code> · my rubber duck debugging team</sub>
+</p>
+
 ```python
 from dataclasses import dataclass
 
@@ -49,8 +54,3 @@ $ git log --author="Namrata" --all
 warning: most of this history lives in private company repos
 hint: the public log starts with Agentic
 ```
-
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/bishop.svg"><img src="assets/bishop.svg" width="144" alt="Pixel-art of Bishop, my black and white tuxedo cat"></picture>
-  <br><sub><code>$ cat bishop.svg</code> · Bishop, my tuxedo cat and rubber duck debugging partner</sub>
-</p>
