@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=FF3B5C&center=true&vCenter=true&width=620&height=50&lines=Every+problem+is+a+jigsaw+puzzle.;Find+the+edges.+Sort+the+pieces.;Fit+them+together.+Ship+it.;Shipped+at+work.+Now+building+in+public." alt="Every problem is a jigsaw puzzle. Find the edges. Sort the pieces. Fit them together. Ship it.">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=FF3B3B&center=true&vCenter=true&width=620&height=50&lines=Every+problem+is+a+jigsaw+puzzle.;Find+the+edges.+Sort+the+pieces.;Fit+them+together.+Ship+it.;Shipped+at+work.+Now+building+in+public." alt="Every problem is a jigsaw puzzle. Find the edges. Sort the pieces. Fit them together. Ship it.">
 </p>
 
 <p align="center"><img src="assets/pieces.svg" width="100%" alt="The pieces that make me: Learning, Creating, Open Source, System Design, Algorithms, Data"></p>
