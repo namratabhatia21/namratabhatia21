@@ -3,8 +3,8 @@
 AI Engineer / Data Scientist at **Alstom** in Paris. I ship GenAI and agentic systems to production: RAG, LangGraph agents, and the evaluation and observability layer that decides whether a feature is ready to ship.
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pets.svg?v=907e4e2"><img src="assets/pets.svg?v=907e4e2" width="420" alt="Animated pixel art: my tuxedo cat Bishop between my two white Lhasa Apsos, Teddy and Whiskey, with the Eiffel Tower and a tree"></picture>
-  <br><sub><code>$ ls ~/pets</code> · my rubber duck debugging team</sub>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/pets.svg?v=headcat"><img src="assets/pets.svg?v=headcat" width="420" alt="Animated pixel art: me at my laptop with my tuxedo cat Bishop lying on my head, between my two white Lhasa Apsos Teddy and Whiskey, with the Eiffel Tower and a tree"></picture>
+  <br><sub><code>$ ls ~/pets</code> · my rubber duck debugging team (Bishop debugs from my head)</sub>
 </p>
 
 ```python
