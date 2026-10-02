@@ -42,31 +42,31 @@ me = Engineer()
 
 Also: MSc Data Science & AI (emlyon + McGill, GPA 4.0), part-time lecturer in AWS cloud and system design, and co-ambassador of Women in Data Science Paris.
 
-### Currently building: [Agentic](https://github.com/namratabhatia21/Agentic)
+### Currently building: [Clarchy](https://github.com/namratabhatia21/Clarchy) · [clarchy.com](https://clarchy.com)
 
-A production-ready agentic chatbot that answers from live data. The model plans, calls tools in parallel, reads the results and cites its sources, streaming every step to the browser.
+Clarchy turns a requirements brief into a cloud architecture you can question, price and compare. Paste a brief or upload a Word, PDF or Excel file, and it designs the system and draws it for **AWS, Azure, Google Cloud and open source**, with the sentence from the brief behind every service, a cost estimate and the regulations that apply.
 
 ```mermaid
 flowchart LR
-    U[Browser] -->|SSE| N[Nginx]
-    N --> A[FastAPI<br/>agent loop]
-    A -->|tool calls| L[LLM<br/>Qwen3 / Ollama / Claude]
-    A --> T[Tools<br/>arXiv, Wikipedia, SQL, HF models]
-    A --> P[(Postgres + pgvector<br/>hybrid search)]
-    A --> R[(Redis<br/>rate limits, cache)]
-    M[Prometheus + Grafana] -.->|scrape| A
+    B[Brief<br/>docx / pdf / xlsx] --> U[Understand<br/>JSON-schema output]
+    U --> A[Design agent<br/>tool loop]
+    A <-->|MCP tools| T[(Clarchy MCP server)]
+    A --> V{Validator}
+    V -->|errors| A
+    V -->|accepted| M[Map to AWS, Azure,<br/>GCP, open source]
+    M --> O[Diagrams, costs,<br/>policy checks]
 ```
 
-- Open-source LLMs by default, with Claude as an optional provider
-- Hybrid retrieval: Hugging Face embeddings in pgvector fused with full-text search (reciprocal rank fusion)
-- Typed tools with pydantic schemas, API keys, rate limiting, CI and a Cloud Run deploy script
+- An LLM agent designs through Clarchy's own MCP server, and its design is accepted only when a validator passes it
+- Everything after the design (mapping, layout, pricing) is deterministic code, and a rule-based planner keeps it working with no model at all
+- Runs on Claude or any OpenAI-compatible endpoint (Hugging Face, Ollama, vLLM); the live demo runs in the browser with Pyodide
 
 ### Why my contribution graph is quiet
 
 ```console
 $ git log --author="Namrata" --all
 warning: most of this history lives in private company repos
-hint: the public log starts with Agentic
+hint: the public log starts with Clarchy
 ```
 
 <sub>[LinkedIn](https://www.linkedin.com/in/namratabhatia21)</sub>
