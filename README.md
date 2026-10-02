@@ -51,6 +51,6 @@ hint: the public log starts with Agentic
 ```
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/tux-cat.svg"><img src="assets/tux-cat.svg" width="144" alt="Pixel-art black and white tuxedo cat"></picture>
-  <br><sub><code>$ cat tuxedo.svg</code> · rubber duck debugging, tuxedo edition</sub>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/bishop.svg"><img src="assets/bishop.svg" width="144" alt="Pixel-art of Bishop, my black and white tuxedo cat"></picture>
+  <br><sub><code>$ cat bishop.svg</code> · Bishop, my tuxedo cat and rubber duck debugging partner</sub>
 </p>
