@@ -49,3 +49,14 @@ $ git log --author="Namrata" --all
 warning: most of this history lives in private company repos
 hint: the public log starts with Agentic
 ```
+
+```console
+$ cat tuxedo.txt
+      /\___/\
+     (  o o  )      rubber duck debugging,
+     (  =^=  )      tuxedo edition
+      )>-o-<(
+     /|  .  |\
+    / |  .  | \
+   (__|__.__|__)~~
+```
