@@ -1,30 +1,27 @@
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/header.svg"><img src="assets/header.svg" width="100%" alt="Namrata: problem solver, puzzle lover, builder"></picture></p>
+## Hi, I'm Namrata 👋
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img src="assets/hero-dark.svg" width="100%" alt="Puzzle, Namrata's jigsaw-piece sidekick, waving next to a speech bubble">
-  </picture>
-</p>
+**AI Engineer / Data Scientist** · Python · SQL · TypeScript
 
-<p align="center">
-  <picture><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=900&color=FF3B3B&center=true&vCenter=true&width=620&height=50&lines=Every+problem+is+a+jigsaw+puzzle.;Find+the+edges.+Sort+the+pieces.;Fit+them+together.+Ship+it.;Shipped+at+work.+Now+building+in+public." alt="Every problem is a jigsaw puzzle. Find the edges. Sort the pieces. Fit them together. Ship it."></picture>
-</p>
+I build AI systems that work with real data: LLM agents, tool calling, retrieval (RAG) and the services around them. Most of my work so far has lived in private company repositories, so this profile is where I build in the open.
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pieces.svg"><img src="assets/pieces.svg" width="100%" alt="The pieces that make me: Learning, Creating, Open Source, System Design, Algorithms, Data"></picture></p>
+### Featured project
 
-<p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/story.svg"><img src="assets/story.svg" width="49%" alt="My story: most of my code shipped at work, in private repos. Now I'm building in public."></picture>
-  <a href="https://github.com/namratabhatia21/Agentic"><img src="assets/agentic.svg" width="49%" alt="Agentic: my experiments with AI agents"></a>
-</p>
+**[Agentic](https://github.com/namratabhatia21/Agentic)**: a production-ready agentic chatbot that answers from live data. The model plans, calls tools in parallel, reads the results and cites its sources, streaming each step to the browser.
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/riddle.svg"><img src="assets/riddle.svg" width="100%" alt="Riddle: I have keys but open no locks. I have space but no room. You can enter, but you can't go inside. What am I?"></picture></p>
+- **LLMs:** open-source models by default (Qwen3 through Hugging Face, or self-hosted with Ollama), with Claude as an optional provider
+- **Retrieval:** hybrid search that combines Hugging Face embeddings in pgvector with keyword search using reciprocal rank fusion
+- **Tools:** web search, arXiv, Wikipedia, read-only analytics SQL, zero-shot and sentiment classification, image generation and more
+- **Production setup:** FastAPI with server-sent events, PostgreSQL, Redis, API keys and rate limiting, Docker Compose, Prometheus and Grafana, GitHub Actions CI, and a Cloud Run deploy script
 
-<details>
-<summary>🧩 <b>Reveal the answer</b></summary>
-<br>
-A <b>keyboard</b> ⌨️, Puzzle's favourite toy.
-</details>
+### Tech
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer.svg"><img src="assets/footer.svg" width="100%" alt="Thanks for stopping by! Building it one piece at a time."></picture></p>
+| | |
+|:--|:--|
+| **Languages** | Python, SQL, JavaScript, TypeScript |
+| **AI / ML** | LLM agents and tool calling, RAG, embeddings, Hugging Face, text classification |
+| **Data and backend** | PostgreSQL and pgvector, Redis, FastAPI |
+| **Infrastructure** | Docker, Prometheus, Grafana, GitHub Actions, Google Cloud Run |
+
+### Interests
+
+System design · Algorithms · Data · Open source
