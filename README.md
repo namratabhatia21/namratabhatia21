@@ -1,4 +1,4 @@
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:f7e7ce,100:f4c2c2&height=200&section=header&text=Hi,%20I'm%20Namrata%20%F0%9F%A7%A9&fontSize=56&fontColor=6b4226&fontAlignY=40&animation=fadeIn&desc=a%20friendly%20little%20problem%20solver&descSize=20&descColor=a0522d&descAlignY=65" width="100%" alt="Hi, I'm Namrata - a friendly little problem solver"></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,50:2b1a33,100:3d2232&height=200&section=header&text=Hi,%20I'm%20Namrata%20%F0%9F%A7%A9&fontSize=56&fontColor=f7e7ce&fontAlignY=40&animation=fadeIn&desc=a%20friendly%20little%20problem%20solver&descSize=20&descColor=f4a6b8&descAlignY=65" width="100%" alt="Hi, I'm Namrata - a friendly little problem solver"></p>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=E53935&center=true&vCenter=true&width=620&height=60&lines=Every+problem+is+a+jigsaw+puzzle.;Find+the+edges.+Sort+the+pieces.;Fit+them+together.+Ship+it.;Shipped+at+work.+Now+building+in+public." alt="Every problem is a jigsaw puzzle. Find the edges. Sort the pieces. Fit them together. Ship it.">
@@ -65,4 +65,4 @@ A <b>keyboard</b> ⌨️, Puzzle's favourite toy.
 
 <p align="center"><sub>🧩 made with curiosity, snacks and a little sidekick 🧸</sub></p>
 
-<p align="center"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:f4c2c2,100:f7e7ce&height=100&section=footer" width="100%" alt=""></p>
+<p align="center"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:3d2232,50:2b1a33,100:0d1117&height=100&section=footer" width="100%" alt=""></p>
